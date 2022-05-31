@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Eczar", serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Kanit", sans-serif;
+}
+.navbar {
+  margin: auto;
+  display: flex;
+  border: 2px solid black;
+  justify-content: right;
+  margin-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 45px;
+  width: 80%;
+  align-items: center;
+  font-weight: 600;
+}
+a {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+/* #presentPage {
+  background-color: black;
+  color: white;
+  padding: 5px;
+} */
+#slideshow {
+  /* border: 2px solid red; */
+  height: 500px;
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  justify-content: center;
+  text-align: center;
+}
+img {
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+}
+#movies {
+  /* border: 2px solid red; */
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.boxMain {
+  /* border: 2px blue solid; */
+  /* height: 500px; */
+}
+.boxImg {
+  /* border: 3px solid green; */
+  width: 100%;
+  height: 500px;
+}
+.boxImg > img {
+  width: 100%;
+}
+.boxDet {
+  /* border: 3px solid yellow; */
+}
+button {
+  display: block;
+  margin: auto;
+}
+#sort-buttons {
+  margin-top: 20px;
+}
